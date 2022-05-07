@@ -1,0 +1,19 @@
+= Hello world notebook
+
+Let's begin with a simple addition:
+
+[source,java]
+----
+System.out.println("starting"); // remove this line to see the second block work well
+int result = 1 + 1;
+System.out.println("1 + 1 = " + result);
+----
+
+Now, let's use that variable again:
+
+[source,java]
+----
+System.out.println("1 + 1 + 1 = " + (result + 1));
+----
+
+This is a better form of Jupyter notebooks.
